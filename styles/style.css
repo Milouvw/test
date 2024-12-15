@@ -1,0 +1,218 @@
+/* menubalk (header) */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 10%;
+}
+
+header img {
+    width: 15em;
+    height: 4em;
+}
+
+header li, a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #F1B18B;
+    border: none;
+    border-radius: 1em;
+}
+
+ul li a {
+    transition: all 0.3s ease 0s;
+}
+
+ul li a:hover {
+    color: #ffffff;
+}
+
+ul li a:visited {
+    color:blue;
+}
+
+.huidige {
+    color:rgb(255, 243, 112);
+}
+
+/* Body, main, section, p, h2, h3, h4 */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(20deg, #F1ED8B, #FFB091, #FFFFFF,#F1ED8B, #F1B18B);
+    
+}
+
+p {
+    font-size: x-large;
+}
+
+h2 {
+    font-size: xx-large;
+    padding-left: 1.5em;
+}
+
+footer a:focus {
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+h4 {
+    margin-left: 2em;
+    font-size: x-large;
+}
+
+section {
+    padding: 2vw;
+}
+
+/* Main (homepagina) */
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100em;
+    height: 40em;
+    padding: 3em;
+    border: 0;
+}
+  
+/* Main (homepagina) "Over ons" section */
+
+.over_ons {
+    background-color: #FFFFFF;
+    
+}
+
+.over_ons p {
+    padding-left: 2em ;
+}
+
+/* Main (homepagina) "Afleveringen" section */
+
+.afleveringen {
+    padding: 3em;
+}
+
+.afleveringen {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.afleveringen img {
+    float: left;
+}
+
+.perfectionismepodcast {
+    width: 20em;
+    height: 20em;
+    padding: 2em;
+    margin-right: 1em;
+}
+
+article img {
+    display: flex;
+    width: 15em;
+    height: 15em;
+    border-radius: 5em;
+    padding: 1em;
+}
+
+/* Main (homepagina) achtergrond titel "ons team" */
+
+.onsteamachtergrond {
+    background-color: #FFFFFF;
+    padding: 1em;
+}
+
+/* Main (homepagina) "ons team" plaatjes en namen */
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 3em;
+}
+
+div img {
+    width: 20em;
+    height: 20em;
+    margin-inline: 2em;
+    border-radius: 1em;
+}
+
+
+/* Main (afleveringenpagina) afleveringen */
+
+.afleveringen_eerste_deel {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F1B18B;
+}
+
+.afleveringen_eerste_deel img {
+    float: left;
+}
+
+
+/* Main (over ons pagina) eerste alinea's met foto transition */
+
+.over_ons_info {
+    margin: auto;
+}
+
+.over_ons_info img {
+    width: 15em;
+    height: 15em;
+    
+}
+
+.stikkerrechts {
+    display: flex;
+    margin: auto;
+}
+  
+.over_ons_info img:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+  }
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: #FFFFFF;
+    padding-bottom: 15em;
+
+}
+
+.producten img {
+    width: 20em;
+    height: 20em;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
